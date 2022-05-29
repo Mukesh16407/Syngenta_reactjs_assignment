@@ -1,0 +1,30 @@
+
+.mainInputBox {
+  margin-right:"20px";
+  width:"250px";
+  display: flex;
+  flex-direction: column;
+}
+.mainInputBox>input,button{
+  margin: auto;
+  height: 20px;
+  margin-top: 5px;
+}
+.mainInputBox>button{
+   width: 170px;
+   height: 30px;
+   margin-top: 10px;
+   background-color:brown;
+   color: white;
+   font-size: medium;
+}
+.contener{
+  display:'flex';
+  gap:"100px";
+  height:"fit-content";
+  margin: 50px 50px;
+  padding: 10px;
+}
+
+
+
